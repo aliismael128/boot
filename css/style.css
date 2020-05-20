@@ -1,0 +1,44 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:10px;
+	font-family:sans-serif;
+	}
+
+html,body{
+	background-color:red;
+}
+
+#menu,ul{
+	display:flex;
+	flex-direction:columns;
+	list-style:none;
+ justify-content:center;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+	transition:0.5s;
+}
+
+li:hover{
+ color:#25dadd;
+ background-color:#b3201b;
+}
+a:hover{
+	color:#3aae1a;
+}
+
+#entete,.entete,p{
+	display:flex;
+	flex-direction:columns;
+}
+
+
+#barre_laterale,.barre_laterale+h3{
+	display:flex;
+	flex-direction:columns;
+	columns:6;
+}

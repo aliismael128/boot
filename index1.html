@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style1.css">
+	<meta charset="UTF-8">
+	<title>open modal</title>
+</head>
+<body>
+	<button id="open modal">
+		
+	</button>
+	<div id="mymodal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;
+				
+			</span>
+			<p>
+				I LOVE ROUKAI
+			</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var modal = document.getElementById ("Mymodal");
+
+    var  btn = document.getElementById("btn");
+
+
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function()
+
+    {
+    	modal.style.display = "block";
+    }
+
+
+span.onclik = function () {
+	modal.style.display = "none";
+}
+
+
+window.onclick = function (event)
+
+{
+	if (event.target == modal) 
+	{
+		modal.style.display = "none"
+	}
+}
+
+
+
+
+
+
+
+
+	</script>
+	<!-- The Modal -->
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>W3.CSS Modal</h2>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Some text. Some text. Some text.</p>
+        <p>Some text. Some text. Some text.</p>
+      </div>
+    </div>
+  </div>
+</div>
+            
+</body>
+</html>
+
+
